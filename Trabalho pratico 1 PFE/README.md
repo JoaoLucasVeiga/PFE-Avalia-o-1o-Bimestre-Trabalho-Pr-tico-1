@@ -17,7 +17,7 @@ GameVault é uma loja digital de jogos desenvolvida com **JavaScript puro**, **H
 - Criação de elementos HTML via JavaScript
 
 ### 3. **Filtro por Categoria**
-- Seleção de categorias (Ação, RPG, Aventura, Casual)
+- Seleção de categorias (Ação, RPG, Aventura, Luta, Casual)
 - Filtragem dinâmica dos jogos exibidos
 - Combinação com busca para resultados mais precisos
 
@@ -49,50 +49,61 @@ GameVault é uma loja digital de jogos desenvolvida com **JavaScript puro**, **H
 ## Estrutura de Arquivos
 
 ```
-trabalho-pratico-1-PFE/
-├── index.html      # Estrutura HTML 
-├── style.css       # Estilos CSS 
-├── script.js       # Lógica JavaScript 
-├── hero.png        # Imagem hero
-└── README.md       # Este arquivo
-- elden-ring.png
-- baldurs-gate-3.png
-- cyberpunk-2077.png
-- witcher-3.png
-- dmc5.png
-- hollow-knight.png
-- dark-souls-3.png
-- starfield.png
-- ff7-remake.png
-- street-fighter-6.png
-- stardew-valley.png
-- hades.png
+gamevault-simple/
+├── index.html              # Estrutura HTML semântica
+├── style.css               # Estilos CSS responsivos
+├── script.js               # Lógica JavaScript pura
+├── hero.png                # Imagem hero do site
+├── elden-ring.png          # Capa do jogo
+├── baldurs-gate-3.png      # Capa do jogo
+├── cyberpunk-2077.png      # Capa do jogo
+├── witcher-3.png           # Capa do jogo
+├── dmc5.png                # Capa do jogo
+├── hollow-knight.png       # Capa do jogo
+├── dark-souls-3.png        # Capa do jogo
+├── starfield.png           # Capa do jogo
+├── ff7-remake.png          # Capa do jogo
+├── street-fighter-6.png    # Capa do jogo
+├── stardew-valley.png      # Capa do jogo
+├── hades.png               # Capa do jogo
+└── README.md               # Este arquivo
 ```
 
 ## Como Usar
 
 ### Instalação
 
-1. Baixe os 17 arquivos (index.html, style.css, script.js, hero.png.etc)
+1. Baixe os 4 arquivos (index.html, style.css, script.js, hero.png)
 2. Coloque-os na mesma pasta
 3. Abra `index.html` no navegador ou com Live Server do VSCode
 
 ### Adicionando Capas dos Jogos
 
-Para que as imagens dos jogos apareçam, coloque os arquivos PNG na mesma pasta com os seguintes nomes:
+Para que as imagens dos jogos apareçam corretamente, coloque os arquivos PNG na mesma pasta que o `index.html` com os seguintes nomes **exatos**:
 
-- elden-ring.png
-- baldurs-gate-3.png
-- cyberpunk-2077.png
-- witcher-3.png
-- dmc5.png
-- hollow-knight.png
-- dark-souls-3.png
-- starfield.png
-- ff7-remake.png
-- street-fighter-6.png
-- stardew-valley.png
-- hades.png
+**Ação:**
+- `elden-ring.png` - Elden Ring (299.90)
+- `cyberpunk-2077.png` - Cyberpunk 2077 (199.90)
+- `dmc5.png` - Devil May Cry 5 (179.90)
+- `dark-souls-3.png` - Dark Souls 3 (129.90)
+
+**RPG:**
+- `baldurs-gate-3.png` - Baldur's Gate 3 (349.90)
+- `witcher-3.png` - The Witcher 3 (149.90)
+- `starfield.png` - Starfield (249.90)
+- `ff7-remake.png` - Final Fantasy VII Remake (199.90)
+
+**Aventura:**
+- `hollow-knight.png` - Hollow Knight (79.90)
+- `hades.png` - Hades (99.90)
+
+**Luta:**
+- `street-fighter-6.png` - Street Fighter 6 (199.90)
+
+**Casual:**
+- `stardew-valley.png` - Stardew Valley (49.90)
+
+**Nota:** Os nomes dos arquivos são case-sensitive. Se as imagens não aparecerem, verifique se os nomes estão exatamente como listado acima.
 
 ## Requisitos Atendidos
 
@@ -123,13 +134,15 @@ Para que as imagens dos jogos apareçam, coloque os arquivos PNG na mesma pasta 
 - Adaptável para mobile (320px+), tablet (768px+) e desktop (1200px+)
 - Tipografia escalável
 - Layouts flexíveis
+- 1 coluna em mobile, 2-3 em tablet, 4 em desktop
 
 ### Acessibilidade ✅
 - Alt text em todas as imagens
-- Contraste adequado (branco sobre roxo)
-- Navegação por teclado
-- Estrutura semântica
-- Atributos ARIA (role, aria-label, aria-live)
+- Contraste 9.8:1 (WCAG AAA) - Cyan com texto preto
+- Navegação por teclado (Tab, Enter, Escape)
+- Estrutura semântica com tags HTML5
+- Atributos ARIA completos (role, aria-label, aria-live, aria-required)
+- 0 erros detectados pelo WAVE extension
 
 ### Performance ✅
 - Código otimizado e eficiente
@@ -140,12 +153,14 @@ Para que as imagens dos jogos apareçam, coloque os arquivos PNG na mesma pasta 
 
 | Métrica | Valor |
 |---------|-------|
-| Linhas HTML | 200+ |
-| Linhas CSS | 600+ |
-| Linhas JavaScript | 400+ |
-| Funcionalidades | 5 |
+| Linhas HTML | 131 |
+| Linhas CSS | 605 |
+| Linhas JavaScript | 334 |
+| Funcionalidades | 6 |
 | Jogos no Catálogo | 12 |
-| Breakpoints CSS | 6 |
+| Categorias | 5 |
+| Breakpoints CSS | 2 |
+| Erros WAVE | 0 |
 
 ## Autor
 
