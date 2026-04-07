@@ -49,19 +49,31 @@ GameVault é uma loja digital de jogos desenvolvida com **JavaScript puro**, **H
 ## Estrutura de Arquivos
 
 ```
-gamevault-simple/
-├── index.html      # Estrutura HTML (200+ linhas)
-├── style.css       # Estilos CSS (600+ linhas)
-├── script.js       # Lógica JavaScript (400+ linhas)
+trabalho-pratico-1-PFE/
+├── index.html      # Estrutura HTML 
+├── style.css       # Estilos CSS 
+├── script.js       # Lógica JavaScript 
 ├── hero.png        # Imagem hero
 └── README.md       # Este arquivo
+- elden-ring.png
+- baldurs-gate-3.png
+- cyberpunk-2077.png
+- witcher-3.png
+- dmc5.png
+- hollow-knight.png
+- dark-souls-3.png
+- starfield.png
+- ff7-remake.png
+- street-fighter-6.png
+- stardew-valley.png
+- hades.png
 ```
 
 ## Como Usar
 
 ### Instalação
 
-1. Baixe os 4 arquivos (index.html, style.css, script.js, hero.png)
+1. Baixe os 17 arquivos (index.html, style.css, script.js, hero.png.etc)
 2. Coloque-os na mesma pasta
 3. Abra `index.html` no navegador ou com Live Server do VSCode
 
