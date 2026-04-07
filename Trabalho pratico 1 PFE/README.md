@@ -17,7 +17,7 @@ GameVault é uma loja digital de jogos desenvolvida com **JavaScript puro**, **H
 - Criação de elementos HTML via JavaScript
 
 ### 3. **Filtro por Categoria**
-- Seleção de categorias (Ação, RPG, Aventura, Estratégia, Casual)
+- Seleção de categorias (Ação, RPG, Aventura, Casual)
 - Filtragem dinâmica dos jogos exibidos
 - Combinação com busca para resultados mais precisos
 
