@@ -1,5 +1,7 @@
 # GameVault - Loja Digital de Jogos
 
+ Emanuel Gomes de Almeida, Gabriel Michels Cubas, Rafael Maia, João Lucas Veiga de Carvalho, Vítor Gabriel Vieira Baldão, Matheus Henrique Vieira Baldão
+
 ## Descrição
 
 GameVault é uma loja digital de jogos desenvolvida com **JavaScript puro**, **HTML5 semântico** e **CSS3 responsivo**. O projeto implementa um catálogo funcional de 12 jogos populares com sistema de busca, filtros, carrinho de compras e formulário de contato validado.
@@ -162,9 +164,9 @@ Para que as imagens dos jogos apareçam corretamente, coloque os arquivos PNG na
 | Breakpoints CSS | 2 |
 | Erros WAVE | 0 |
 
-## Autor
+## Projeto Acadêmico
 
-Desenvolvido como projeto acadêmico de Programação Front-End.
+Desenvolvido como projeto de Engenharia de Software - Disciplina de Programação Front-End.
 
 ## Licença
 
